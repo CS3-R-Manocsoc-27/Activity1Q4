@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="AAQ2">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="Rheane Ezrah F. Manocsoc-Sodium">
+        <title>Sign-up Page</title>
+    </head>
+    
+    <body>
+
+        <div class="container">
+            <h2>Sign Up</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+
+                <label for="username">Preferred Username:</label>
+                <input type="text" id="username" name="username">
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+
+                <label for="confirm_password">Confirm Password:</label>
+                <input type="password" id="confirm_password" name="confirm_password">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address">
+
+                <label for="interests">Interests:</label>
+                <textarea id="interests" name="interests"></textarea>
+
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </form>
+        </div>
+    </body>
+
+    <style>
+        body 
+        {
+                font-family: Arial;
+                background-color: #8a73c7;
+                margin: 0;
+                padding: 0;
+        }
+        .container 
+            {
+                width: 50%;
+                margin: 50px auto;
+                background-color: white;
+                padding: 80px;
+                border-radius: 8px;
+                box-shadow: 0 0 10px #624e99;
+            }
+
+        h2 
+            {
+                text-align: center;
+            }
+
+        label 
+            {
+                font-weight: bold;
+            }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+            
+        textarea 
+            {
+                width: 100%;
+                padding: 8px;
+                margin-bottom: 10px;
+                border: 1px solid #624e99 ;
+                border-radius: 4px;
+                box-sizing: border-box;
+            }
+
+        textarea 
+            {
+                height: 100px;
+            }
+
+        input[type="submit"],
+        input[type="reset"] 
+            {
+                background-color: #8a73c7;
+                color: #fff;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+
+        input[type="submit"]:hover,
+        input[type="reset"]:hover 
+            {
+                background-color: #624e99;
+            }
+    </style>
+</html>
